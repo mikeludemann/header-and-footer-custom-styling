@@ -1,0 +1,51 @@
+*{
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box;
+}
+
+body{
+  height: 900px;
+}
+
+header, footer {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+footer {
+	border-radius: 100% 100% 0 0 / 75%;
+}
+
+header {
+	border-radius: 0 0 100% 100% / 75%;
+}
+
+.overlay--header,
+.overlay--footer {
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #23c423 10%, #c4c423 100%);
+	
+}
+
+.overlay--header > div,
+.overlay--footer > div {
+	max-width: 60%;
+	margin: auto;
+}
+
+h1, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.content {
+  margin: 50px 50px;
+}
